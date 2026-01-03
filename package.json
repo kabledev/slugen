@@ -1,0 +1,48 @@
+{
+  "name": "slugen",
+  "version": "0.1.0",
+  "description": "Modern and lightweight slug generator for URLs, permalinks, and identifiers with multi-language support",
+  "keywords": [
+    "slug",
+    "slug-generator",
+    "url-slug",
+    "permalink",
+    "seo",
+    "url",
+    "identifier",
+    "string-normalization",
+    "multilingual",
+    "i18n",
+    "typescript"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest tests/slugen.spec.ts --run",
+    "bench": "vitest tests/bench.spec.ts --run"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "vitest": "^4.0.16"
+  }
+}
