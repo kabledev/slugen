@@ -1,6 +1,6 @@
 {
   "name": "slugen",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Modern and lightweight slug generator for URLs, permalinks, and identifiers with multi-language support",
   "keywords": [
     "slug",
