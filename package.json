@@ -29,6 +29,11 @@
     "dist"
   ],
   "sideEffects": false,
+  "homepage": "https://github.com/kabledev/slugen",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kabledev/slugen.git"
+  },
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
@@ -36,7 +41,7 @@
     "test": "vitest tests/slugen.spec.ts --run",
     "bench": "vitest tests/bench.spec.ts --run"
   },
-  "author": "",
+  "author": "Kable",
   "license": "MIT",
   "devDependencies": {
     "tsup": "^8.5.1",
