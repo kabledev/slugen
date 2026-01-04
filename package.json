@@ -1,7 +1,8 @@
 {
   "name": "slugen",
   "version": "0.1.2",
-  "description": "Modern and lightweight slug generator for URLs, permalinks, and identifiers with multi-language support",
+  "description": "Generate URL-friendly slugs, usernames, SEO-friendly links, or safely convert text into clean identifiers",
+  "type": "module",
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
