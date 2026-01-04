@@ -1,5 +1,10 @@
 # slugen
 
+![NPM Downloads](https://img.shields.io/npm/v/slugen)
+![NPM Last Update](https://img.shields.io/npm/last-update/slugen)
+![NPM Downloads](https://img.shields.io/npm/dw/slugen)
+
+
 A modern, fast slug generator for JavaScript and TypeScript.
 
 Generate URL-friendly slugs, usernames, SEO-friendly links, or safely convert text into clean identifiers.

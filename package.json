@@ -2,19 +2,18 @@
   "name": "slugen",
   "version": "0.1.1",
   "description": "Modern and lightweight slug generator for URLs, permalinks, and identifiers with multi-language support",
-  "keywords": [
-    "slug",
-    "slug-generator",
-    "url-slug",
-    "permalink",
-    "seo",
-    "url",
-    "identifier",
-    "string-normalization",
-    "multilingual",
-    "i18n",
-    "typescript"
-  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest tests/slugen.spec.ts --run",
+    "bench": "vitest tests/bench.spec.ts --run"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.16"
+  },
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -29,25 +28,24 @@
     "dist"
   ],
   "sideEffects": false,
+  "keywords": [
+    "slug",
+    "slug-generator",
+    "url-slug",
+    "permalink",
+    "seo",
+    "url",
+    "identifier",
+    "string-normalization",
+    "multilingual",
+    "i18n",
+    "typescript"
+  ],
   "homepage": "https://github.com/kabledev/slugen",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kabledev/slugen.git"
   },
-  "scripts": {
-    "build": "tsup",
-    "dev": "tsup --watch",
-    "typecheck": "tsc --noEmit",
-    "test": "vitest tests/slugen.spec.ts --run",
-    "bench": "vitest tests/bench.spec.ts --run"
-  },
   "author": "Kable",
-  "license": "MIT",
-  "devDependencies": {
-    "tsup": "^8.5.1",
-    "typescript": "^5.9.3"
-  },
-  "dependencies": {
-    "vitest": "^4.0.16"
-  }
+  "license": "MIT"
 }
