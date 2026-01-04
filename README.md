@@ -1,8 +1,11 @@
 # slugen
 
-![NPM Downloads](https://img.shields.io/npm/v/slugen)
-![NPM Last Update](https://img.shields.io/npm/last-update/slugen)
-![NPM Downloads](https://img.shields.io/npm/dw/slugen)
+[![NPM Downloads](https://img.shields.io/npm/v/slugen)](https://www.npmjs.com/package/slugen)
+[![NPM Last Update](https://img.shields.io/npm/last-update/slugen)](https://www.npmjs.com/package/slugen)
+[![NPM Downloads](https://img.shields.io/npm/dw/slugen)](https://www.npmjs.com/package/slugen)
+
+
+
 
 
 A modern, fast slug generator for JavaScript and TypeScript.
