@@ -1,6 +1,6 @@
 {
   "name": "slugen",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Generate URL-friendly slugs, usernames, SEO-friendly links, or safely convert text into clean identifiers",
   "type": "module",
   "scripts": {
